@@ -1,21 +1,21 @@
 import * as React from 'react';
-import divider from '../divider.png';
-import divider2 from '../divider2.png';
+import divider from './utils/images/divider.png';
+import divider2 from './utils/images/divider2.png';
 import {Box, Grid, Paper, Typography} from '@mui/material';
 export default function about() {
   //todo make function for each grid like events.js
   return (
-    <Box sx={{backgroundColor: 'secondary.accent'}} id="departments">
+    <Box sx={{backgroundColor: 'secondary.accent'}} id="teams">
       <Paper elevation={0} className="h-24">
         <Typography gutterBottom className="hover:italic" variant="overline" sx={{color: 'white'}}>
           section depts
         </Typography>
       </Paper>
-      <Box sx={{backgroundColor: 'white'}} id="home" className='bg-cover bg-center bg-cover flex grid h-16' style={{backgroundImage: `url(${divider})`}}>
+      <Box sx={{backgroundColor: 'white'}} className='bg-cover bg-center flex grid h-24' style={{backgroundImage: `url(${divider})`}}>
       </Box>
       <Box className="flex grid">
         <Typography gutterBottom style={{borderColor: '#1785c2'}}className="border-8" variant="h2" sx={{color: 'white'}}>
-          Our Departments
+          Our Teams
         </Typography>
           <Grid   
             container
@@ -53,7 +53,7 @@ export default function about() {
             </Grid>
           </Grid>
         </Box>
-      <Box sx={{backgroundColor: 'white'}} id="home" className='bg-cover bg-center bg-cover flex grid h-16' style={{backgroundImage: `url(${divider2})`}}>
+      <Box sx={{backgroundColor: 'white'}} id="events" className='bg-cover bg-center flex grid h-24' style={{backgroundImage: `url(${divider2})`}}>
       </Box>
     </Box>
 

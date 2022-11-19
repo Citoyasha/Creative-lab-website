@@ -1,12 +1,12 @@
 import * as React from 'react';
-import Clab_icon from '../logoheader.png';
+import Clab_icon from './utils/images/logoheader.png';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Fade, Fab, useScrollTrigger, AppBar, Box, Divider, Drawer, IconButton, List, ListItem, ListItemButton, ListItemText, Toolbar, Typography, Button} from '@mui/material';
 import UpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About Us', 'Departments', 'Events', 'Meet the Team'];
-const navLinks = ['/#home', '/#about', '/#departments', '/#events', '/#team'];
+const navItems = ['Home', 'Highlights', 'Our Teams', 'Events', 'Meet the Staff'];
+const navLinks = ['/#home', '/#highlights', '/#teams', '/#events', '/#staff'];
 
 function ElevationScroll(props) {
   const { children, window } = props;

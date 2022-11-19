@@ -1,5 +1,5 @@
 import * as React from 'react';
-import divider from '../divider4.png';
+import divider from './utils/images/divider4.png';
 import {Box, Typography, IconButton} from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';

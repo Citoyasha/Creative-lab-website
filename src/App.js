@@ -2,7 +2,7 @@ import './App.css';
 import oregano from "@fontsource/oregano";
 import Navbar from './Comp/navbar.js';
 import Banner from './Comp/banner.js';
-import About from './Comp/about.js';
+import Highlights from './Comp/highlights.js';
 import Dept from './Comp/dept.js';
 import Ev from './Comp/events.js';
 import Team from './Comp/team.js';
@@ -44,7 +44,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Navbar/>
         <Banner/>
-        <About/>
+        <Highlights/>
         <Dept/>
         <Ev/>
         <Team/>

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Ahmed Hamza Guissem",
+    "pos": "Visuals Team Leader",
+    "pic": "https://lh3.googleusercontent.com/u/0/drive-viewer/AFDK6gPowjWIUAcoEdVnmisZYtrVqMoaGGgQylrz3m8QJ13niJdcHzShPomTy_3-EcuMKA--tezE51jtthYatgL6OXVv_uFd=w1366-h630"
+  },  
+  {
+    "name": "Maha Houidi",
+    "pos": "Development Team Leader",
+    "pic": "./images/iconC.png"
+  },
+  {
+    "name": "Aziz Rezgui",
+    "pos": "Robotics & Iot Team Leader",
+    "pic": "./images/iconC.png"
+  }
+]
